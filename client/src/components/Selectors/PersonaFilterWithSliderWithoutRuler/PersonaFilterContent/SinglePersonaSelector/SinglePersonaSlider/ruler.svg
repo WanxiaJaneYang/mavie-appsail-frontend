@@ -1,0 +1,13 @@
+<svg width="100px" height="30px" viewBox="0 0 100 30" xmlns="http://www.w3.org/2000/svg" >
+<g fill="none" stroke="#000" text-anchor="middle">
+<line x1="0" y1="5" x2="0" y2="10" stroke="#8393A8">
+</line><text x="0" y="20" font-family="Inter" font-size="5" fill="#8393A8">1</text>
+<line x1="20" y1="5" x2="20" y2="10" stroke="#8393A8">
+</line><text x="20" y="20" font-family="Inter" font-size="5" fill="#8393A8">2</text>
+<line x1="40" y1="5" x2="40" y2="10" stroke="#8393A8"></line>
+<text x="40" y="20" font-family="Inter" font-size="5" fill="#8393A8">3</text>
+<line x1="60" y1="5" x2="60" y2="10" stroke="#8393A8"></line>
+<text x="60" y="20" font-family="Inter" font-size="5" fill="#8393A8">4</text>
+<line x1="80" y1="5" x2="80" y2="10" stroke="#8393A8"></line>
+<text x="80" y="20" font-family="Inter" font-size="5" fill="#8393A8">5</text>
+</g></svg>

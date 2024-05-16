@@ -1,0 +1,19 @@
+.round-button {
+    border: none;
+    border-radius: 50%; /* Makes the button round */
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    background-color: white; /* Sets button color to white */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Removes default padding */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    outline: none; /* Removes the outline to keep the design clean */
+  }
+  
+  .button-icon {
+    width: 60%; /* Adjust based on your needs */
+    height: auto; /* Keeps the aspect ratio of the image */
+  }
+  

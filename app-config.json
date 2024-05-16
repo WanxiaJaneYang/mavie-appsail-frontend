@@ -1,8 +1,18 @@
 {
-	"command": "echo Please specify the start-up command in the app-config.json file under the key command",
-	"buildPath": "D:\\s2s\\mavie-project",
+	"command": "npm start",
+	"buildPath": "D:\\s2s\\mavie-project\\mavie-appsail-frontend\\app",
 	"stack": "node18",
-	"env_variables": {},
+	"env_variables": {
+		"REACT_APP_API_BASE_URL":"https://mavybackend-10068179457.development.catalystappsail.com",
+		"REACT_APP_PRODUCTION_API_BASE_URL":"https://mavybackend-10068179457.catalystappsail.com",
+		"REACR_APP_DEV_BASE_URL":"https://maviecustomerfrontend-698471191.development.catalystserverless.com/app/index.html",
+		"REACT_APP_PRODUCT_BASE_URL":"https://maviecustomerfrontend-698471191.catalystserverless.com/app/index.html",
+		"GENERATE_SOURCEMAP":"false",
+		"REACT_APP_TEST_SCENARIO":"success"
+	},
 	"memory": 256,
-	"scripts": {}
+	"scripts": {
+		"preserve":"cd client && npm run build && npm run clean && npm run pack",
+		"predeploy":"cd client && npm run build && npm run clean && npm run pack"
+	}
 }
