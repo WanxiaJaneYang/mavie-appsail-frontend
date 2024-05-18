@@ -23,3 +23,84 @@ Response Headers: {"server":"ZGS","date":"Thu, 16 May 2024 08:12:53 GMT","conten
 [info] [2024-05-16T08:12:52.367Z] : Executing predeploy script in D:\s2s\mavie-project\mavie-appsail-frontend
 [debug] [2024-05-16T08:12:52.367Z] : Executing command > cd client && npm run build && npm run clean && npm run pack
 [info] [2024-05-16T08:12:52.367Z] : > cd client && npm run build && npm run clean && npm run pack
+[debug] [2024-05-16T08:24:32.167Z] : 
+[debug] [2024-05-16T08:24:32.168Z] : ----------------------------------------------------------------------
+[debug] [2024-05-16T08:24:32.169Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\10168\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve --only appsail:frontend
+[debug] [2024-05-16T08:24:32.169Z] : CLI Version:  1.17.3
+[debug] [2024-05-16T08:24:32.169Z] : Platform:     win32
+[debug] [2024-05-16T08:24:32.170Z] : Node Version: v18.17.0
+[debug] [2024-05-16T08:24:32.171Z] : Time:         Thu May 16 2024 17:54:32 GMT+0930 (澳大利亚中部标准时间)
+[debug] [2024-05-16T08:24:32.171Z] : ----------------------------------------------------------------------
+[debug] [2024-05-16T08:24:32.171Z] : 
+[debug] [2024-05-16T08:24:32.856Z] : > authorizing via signed-in user option
+[debug] [2024-05-16T08:24:32.856Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-05-16T08:24:32.868Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058 
+
+[debug] [2024-05-16T08:24:33.665Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 16 May 2024 08:24:34 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=306888c3-be21-40ba-a491-7b8d7774cbc3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=306888c3-be21-40ba-a491-7b8d7774cbc3;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-16T08:24:33.668Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058/environment 
+
+[debug] [2024-05-16T08:24:34.326Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 16 May 2024 08:24:35 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=ab26146c-c3d1-4e9b-946f-b0ff43f73953;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ab26146c-c3d1-4e9b-946f-b0ff43f73953;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-16T08:24:34.672Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2024-05-16T08:24:34.684Z] : http port : '3060' is not available. Hence port '3061' will be used instead.
+[debug] [2024-05-16T08:24:34.685Z] : No basic functions to add
+[info] [2024-05-16T08:24:34.686Z] : 
+[info] [2024-05-16T08:24:34.687Z] : Executing AppSail [PRESERVE] [frontend] script in D:\s2s\mavie-project\mavie-appsail-frontend
+[debug] [2024-05-16T08:24:34.687Z] : Executing command > cd client && npm run build && npm run clean && npm run pack
+[info] [2024-05-16T08:24:34.687Z] : > cd client && npm run build && npm run clean && npm run pack
+[info] [2024-05-16T08:29:23.451Z] : 
+[info] [2024-05-16T08:29:23.452Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2024-05-16T08:29:23.453Z] : i frontend: http://localhost:3001
+[info] [2024-05-16T08:29:23.453Z] : 
+[debug] [2024-05-16T08:31:45.224Z] : 
+[debug] [2024-05-16T08:31:45.225Z] : ----------------------------------------------------------------------
+[debug] [2024-05-16T08:31:45.225Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\10168\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve --only appsail:frontend
+[debug] [2024-05-16T08:31:45.226Z] : CLI Version:  1.17.3
+[debug] [2024-05-16T08:31:45.226Z] : Platform:     win32
+[debug] [2024-05-16T08:31:45.226Z] : Node Version: v18.17.0
+[debug] [2024-05-16T08:31:45.227Z] : Time:         Thu May 16 2024 18:01:45 GMT+0930 (澳大利亚中部标准时间)
+[debug] [2024-05-16T08:31:45.228Z] : ----------------------------------------------------------------------
+[debug] [2024-05-16T08:31:45.228Z] : 
+[debug] [2024-05-16T08:31:45.885Z] : > authorizing via signed-in user option
+[debug] [2024-05-16T08:31:45.885Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-05-16T08:31:45.896Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058 
+
+[debug] [2024-05-16T08:31:47.700Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 16 May 2024 08:31:48 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=5b295931-d6f1-4514-87e1-75ca9d65a7a1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5b295931-d6f1-4514-87e1-75ca9d65a7a1;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-16T08:31:47.703Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058/environment 
+
+[debug] [2024-05-16T08:31:48.333Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 16 May 2024 08:31:49 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=8d00292e-725e-4485-8add-bc5bb59a3d45;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=8d00292e-725e-4485-8add-bc5bb59a3d45;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-16T08:31:48.544Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2024-05-16T08:31:48.557Z] : http port : '3060' is not available. Hence port '3061' will be used instead.
+[debug] [2024-05-16T08:31:48.558Z] : No basic functions to add
+[info] [2024-05-16T08:31:48.710Z] : 
+[info] [2024-05-16T08:31:48.711Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2024-05-16T08:31:48.711Z] : i frontend: http://localhost:3001
+[info] [2024-05-16T08:31:48.712Z] : 
+[debug] [2024-05-17T01:04:01.986Z] : 
+[debug] [2024-05-17T01:04:01.987Z] : ----------------------------------------------------------------------
+[debug] [2024-05-17T01:04:01.987Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\10168\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy --only appsail:frontend
+[debug] [2024-05-17T01:04:01.987Z] : CLI Version:  1.17.3
+[debug] [2024-05-17T01:04:01.988Z] : Platform:     win32
+[debug] [2024-05-17T01:04:01.988Z] : Node Version: v18.17.0
+[debug] [2024-05-17T01:04:01.989Z] : Time:         Fri May 17 2024 10:34:01 GMT+0930 (澳大利亚中部标准时间)
+[debug] [2024-05-17T01:04:01.990Z] : ----------------------------------------------------------------------
+[debug] [2024-05-17T01:04:01.990Z] : 
+[debug] [2024-05-17T01:04:11.805Z] : > authorizing via signed-in user option
+[debug] [2024-05-17T01:04:11.805Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-05-17T01:04:11.848Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058 
+
+[debug] [2024-05-17T01:04:12.812Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 17 May 2024 01:04:12 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=a2b84001-d4d7-4b17-ba56-77d8306a59e8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a2b84001-d4d7-4b17-ba56-77d8306a59e8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-17T01:04:12.815Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058/environment 
+
+[debug] [2024-05-17T01:04:13.693Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 17 May 2024 01:04:13 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=9f85ec6b-4a56-4c7a-9d82-5f3f9a634181;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9f85ec6b-4a56-4c7a-9d82-5f3f9a634181;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
