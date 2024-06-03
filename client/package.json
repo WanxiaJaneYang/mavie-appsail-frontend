@@ -38,19 +38,15 @@
     "react-scripts": "5.0.1",
     "serve": "^14.2.3",
     "web-vitals": "^2.1.4",
-    "yup": "^1.4.0",
-    "zcatalyst-cli-plugin-react": "^0.0.4"
+    "yup": "^1.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "start:success": "set \"REACT_APP_TEST_SCENARIO=success\" && react-scripts start",
-    "start:failure": "set \"REACT_APP_TEST_SCENARIO=failure\" && react-scripts start",
+    "serve": "serve -s build",
+    "dev": "npm run start",
     "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "clean": "node clean.js",
-    "pack": "node pack.js",
-    "serve": "serve -s build"
+    "clean":"cd .. && rm -rf build/* && mkdir -p build",
+    "pack": "cp -r build public package.json ../build && cd ../build && npm install"
   },
   "eslintConfig": {
     "extends": [

@@ -1,6 +1,6 @@
 {
 	"command": "npm run serve",
-	"buildPath": "D:\\s2s\\mavie-project\\mavie-appsail-frontend\\app",
+	"buildPath": "/Users/intern/mavie project/mavie-catalyst/mavie-appsail-frontend/client",
 	"stack": "node18",
 	"env_variables": {
 		"REACT_APP_API_BASE_URL":"https://mavybackend-10068179457.development.catalystappsail.com",
@@ -10,8 +10,9 @@
 		"GENERATE_SOURCEMAP":"false",
 		"REACT_APP_TEST_SCENARIO":"success"
 	},
-	"memory": 256,
+	"memory": 512,
 	"scripts": {
-		
+		"preserve":"cd client && npm run build && npm run clean && npm run pack",
+		"predeploy":"cd client && npm run build && npm run clean && npm run pack"
 	}
 }

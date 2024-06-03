@@ -1,106 +1,112 @@
-[debug] [2024-05-16T08:12:49.145Z] : 
-[debug] [2024-05-16T08:12:49.146Z] : ----------------------------------------------------------------------
-[debug] [2024-05-16T08:12:49.147Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\10168\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy --only appsail:frontend
-[debug] [2024-05-16T08:12:49.147Z] : CLI Version:  1.17.3
-[debug] [2024-05-16T08:12:49.148Z] : Platform:     win32
-[debug] [2024-05-16T08:12:49.148Z] : Node Version: v18.17.0
-[debug] [2024-05-16T08:12:49.149Z] : Time:         Thu May 16 2024 17:42:49 GMT+0930 (澳大利亚中部标准时间)
-[debug] [2024-05-16T08:12:49.149Z] : ----------------------------------------------------------------------
-[debug] [2024-05-16T08:12:49.150Z] : 
-[debug] [2024-05-16T08:12:49.852Z] : > authorizing via signed-in user option
-[debug] [2024-05-16T08:12:49.853Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
-[debug] [2024-05-16T08:12:49.865Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058 
+[debug] [2024-06-03T02:18:32.489Z] : 
+[debug] [2024-06-03T02:18:32.490Z] : ----------------------------------------------------------------------
+[debug] [2024-06-03T02:18:32.490Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst deploy --only appsail:frontend
+[debug] [2024-06-03T02:18:32.490Z] : CLI Version:  1.16.2
+[debug] [2024-06-03T02:18:32.491Z] : Platform:     darwin
+[debug] [2024-06-03T02:18:32.491Z] : Node Version: v18.18.2
+[debug] [2024-06-03T02:18:32.493Z] : Time:         Mon Jun 03 2024 11:48:32 GMT+0930 (Australian Central Standard Time)
+[debug] [2024-06-03T02:18:32.493Z] : ----------------------------------------------------------------------
+[debug] [2024-06-03T02:18:32.493Z] : 
+[debug] [2024-06-03T02:18:33.003Z] : > authorizing via signed-in user option
+[debug] [2024-06-03T02:18:33.004Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-06-03T02:18:33.016Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058 
 
-[debug] [2024-05-16T08:12:51.657Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Thu, 16 May 2024 08:12:52 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=941e1d7d-0c8e-446f-ac24-f6f8050028ff;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=941e1d7d-0c8e-446f-ac24-f6f8050028ff;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+[debug] [2024-06-03T02:18:34.128Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 02:18:34 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=ac4067aa-7273-4973-b2dd-765526c5c645;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ac4067aa-7273-4973-b2dd-765526c5c645;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
 
-[debug] [2024-05-16T08:12:51.660Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058/environment 
+[debug] [2024-06-03T02:18:34.133Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058/environment 
 
-[debug] [2024-05-16T08:12:52.311Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Thu, 16 May 2024 08:12:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=5059183c-c96c-49b0-a6b9-f352f90d94c7;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5059183c-c96c-49b0-a6b9-f352f90d94c7;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+[debug] [2024-06-03T02:18:34.858Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 02:18:34 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=65da0b85-103b-4498-9ea7-6e8e1c45ee9f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=65da0b85-103b-4498-9ea7-6e8e1c45ee9f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
 
-[info] [2024-05-16T08:12:52.366Z] : 
-[info] [2024-05-16T08:12:52.367Z] : Executing predeploy script in D:\s2s\mavie-project\mavie-appsail-frontend
-[debug] [2024-05-16T08:12:52.367Z] : Executing command > cd client && npm run build && npm run clean && npm run pack
-[info] [2024-05-16T08:12:52.367Z] : > cd client && npm run build && npm run clean && npm run pack
-[debug] [2024-05-16T08:24:32.167Z] : 
-[debug] [2024-05-16T08:24:32.168Z] : ----------------------------------------------------------------------
-[debug] [2024-05-16T08:24:32.169Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\10168\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve --only appsail:frontend
-[debug] [2024-05-16T08:24:32.169Z] : CLI Version:  1.17.3
-[debug] [2024-05-16T08:24:32.169Z] : Platform:     win32
-[debug] [2024-05-16T08:24:32.170Z] : Node Version: v18.17.0
-[debug] [2024-05-16T08:24:32.171Z] : Time:         Thu May 16 2024 17:54:32 GMT+0930 (澳大利亚中部标准时间)
-[debug] [2024-05-16T08:24:32.171Z] : ----------------------------------------------------------------------
-[debug] [2024-05-16T08:24:32.171Z] : 
-[debug] [2024-05-16T08:24:32.856Z] : > authorizing via signed-in user option
-[debug] [2024-05-16T08:24:32.856Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
-[debug] [2024-05-16T08:24:32.868Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058 
+[info] [2024-06-03T02:18:34.871Z] : 
+[info] [2024-06-03T02:18:34.871Z] : Executing predeploy script in /Users/intern/mavie project/mavie-catalyst/mavie-appsail-frontend
+[debug] [2024-06-03T02:18:34.871Z] : Executing command > cd client && npm run build && npm run clean && npm run pack
+[info] [2024-06-03T02:18:34.871Z] : > cd client && npm run build && npm run clean && npm run pack
+[debug] [2024-06-03T02:33:26.261Z] : [Error: EMFILE: too many open files, open '/var/folders/16/l3r3zvrs0d1_50xn2gkngk3w0000gq/T/.catalyst/Archive.zip'] {
+  errno: -24,
+  code: 'EMFILE',
+  syscall: 'open',
+  path: '/var/folders/16/l3r3zvrs0d1_50xn2gkngk3w0000gq/T/.catalyst/Archive.zip'
+}
+[warn] [2024-06-03T02:33:26.262Z] : ⚠ Deploy of AppSail [frontend] was unsuccessful since EMFILE: too many open files, open '/var/folders/16/l3r3zvrs0d1_50xn2gkngk3w0000gq/T/.catalyst/Archive.zip'
+[info] [2024-06-03T02:33:26.263Z] : 
+[error] [2024-06-03T02:33:26.263Z] : ✖ appsail: deploy skipped
+[info] [2024-06-03T02:33:26.263Z] : 
+[error] [2024-06-03T02:33:26.263Z] : ✖ No components deployed!
+[debug] [2024-06-03T02:33:26.264Z] : NO ERRORS REGISTERED
+[debug] [2024-06-03T02:33:26.264Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-06-03T02:33:26.264Z] : TOTAL DURATION OF COMMAND EXEC : 893269
+[debug] [2024-06-03T02:33:26.264Z] : Unable to send debug log to server: EMFILE: too many open files, open '/Users/intern/Library/Preferences/zcatalyst-cli-nodejs/zcatalyst-cli.json'
+[debug] [2024-06-03T02:41:00.858Z] : 
+[debug] [2024-06-03T02:41:00.859Z] : ----------------------------------------------------------------------
+[debug] [2024-06-03T02:41:00.859Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst deploy --only appsail:frontend
+[debug] [2024-06-03T02:41:00.859Z] : CLI Version:  1.16.2
+[debug] [2024-06-03T02:41:00.860Z] : Platform:     darwin
+[debug] [2024-06-03T02:41:00.860Z] : Node Version: v18.18.2
+[debug] [2024-06-03T02:41:00.861Z] : Time:         Mon Jun 03 2024 12:11:00 GMT+0930 (Australian Central Standard Time)
+[debug] [2024-06-03T02:41:00.862Z] : ----------------------------------------------------------------------
+[debug] [2024-06-03T02:41:00.862Z] : 
+[debug] [2024-06-03T02:41:08.534Z] : > authorizing via signed-in user option
+[debug] [2024-06-03T02:41:08.535Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-06-03T02:41:08.585Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058 
 
-[debug] [2024-05-16T08:24:33.665Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Thu, 16 May 2024 08:24:34 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=306888c3-be21-40ba-a491-7b8d7774cbc3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=306888c3-be21-40ba-a491-7b8d7774cbc3;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+[debug] [2024-06-03T02:41:09.507Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 02:41:09 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=87d7da84-9684-418c-a4e1-a3cc55f76561;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=87d7da84-9684-418c-a4e1-a3cc55f76561;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
 
-[debug] [2024-05-16T08:24:33.668Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058/environment 
+[debug] [2024-06-03T02:41:09.510Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058/environment 
 
-[debug] [2024-05-16T08:24:34.326Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Thu, 16 May 2024 08:24:35 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=ab26146c-c3d1-4e9b-946f-b0ff43f73953;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ab26146c-c3d1-4e9b-946f-b0ff43f73953;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+[debug] [2024-06-03T02:41:10.356Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 02:41:10 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=6ee8f9f2-c862-4fa9-a5da-d98d27270cfd;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6ee8f9f2-c862-4fa9-a5da-d98d27270cfd;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
 
-[debug] [2024-05-16T08:24:34.672Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
-[debug] [2024-05-16T08:24:34.684Z] : http port : '3060' is not available. Hence port '3061' will be used instead.
-[debug] [2024-05-16T08:24:34.685Z] : No basic functions to add
-[info] [2024-05-16T08:24:34.686Z] : 
-[info] [2024-05-16T08:24:34.687Z] : Executing AppSail [PRESERVE] [frontend] script in D:\s2s\mavie-project\mavie-appsail-frontend
-[debug] [2024-05-16T08:24:34.687Z] : Executing command > cd client && npm run build && npm run clean && npm run pack
-[info] [2024-05-16T08:24:34.687Z] : > cd client && npm run build && npm run clean && npm run pack
-[info] [2024-05-16T08:29:23.451Z] : 
-[info] [2024-05-16T08:29:23.452Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
-[info] [2024-05-16T08:29:23.453Z] : i frontend: http://localhost:3001
-[info] [2024-05-16T08:29:23.453Z] : 
-[debug] [2024-05-16T08:31:45.224Z] : 
-[debug] [2024-05-16T08:31:45.225Z] : ----------------------------------------------------------------------
-[debug] [2024-05-16T08:31:45.225Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\10168\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve --only appsail:frontend
-[debug] [2024-05-16T08:31:45.226Z] : CLI Version:  1.17.3
-[debug] [2024-05-16T08:31:45.226Z] : Platform:     win32
-[debug] [2024-05-16T08:31:45.226Z] : Node Version: v18.17.0
-[debug] [2024-05-16T08:31:45.227Z] : Time:         Thu May 16 2024 18:01:45 GMT+0930 (澳大利亚中部标准时间)
-[debug] [2024-05-16T08:31:45.228Z] : ----------------------------------------------------------------------
-[debug] [2024-05-16T08:31:45.228Z] : 
-[debug] [2024-05-16T08:31:45.885Z] : > authorizing via signed-in user option
-[debug] [2024-05-16T08:31:45.885Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
-[debug] [2024-05-16T08:31:45.896Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058 
+[debug] [2024-06-03T02:46:02.659Z] : [Error: EMFILE: too many open files, open '/var/folders/16/l3r3zvrs0d1_50xn2gkngk3w0000gq/T/.catalyst/Archive.zip'] {
+  errno: -24,
+  code: 'EMFILE',
+  syscall: 'open',
+  path: '/var/folders/16/l3r3zvrs0d1_50xn2gkngk3w0000gq/T/.catalyst/Archive.zip'
+}
+[warn] [2024-06-03T02:46:02.660Z] : ⚠ Deploy of AppSail [frontend] was unsuccessful since EMFILE: too many open files, open '/var/folders/16/l3r3zvrs0d1_50xn2gkngk3w0000gq/T/.catalyst/Archive.zip'
+[info] [2024-06-03T02:46:02.660Z] : 
+[error] [2024-06-03T02:46:02.661Z] : ✖ appsail: deploy skipped
+[info] [2024-06-03T02:46:02.661Z] : 
+[error] [2024-06-03T02:46:02.661Z] : ✖ No components deployed!
+[debug] [2024-06-03T02:46:02.661Z] : NO ERRORS REGISTERED
+[debug] [2024-06-03T02:46:02.662Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-06-03T02:46:02.662Z] : TOTAL DURATION OF COMMAND EXEC : 294225
+[debug] [2024-06-03T02:46:02.662Z] : Unable to send debug log to server: EMFILE: too many open files, open '/Users/intern/Library/Preferences/zcatalyst-cli-nodejs/zcatalyst-cli.json'
+[debug] [2024-06-03T02:48:26.606Z] : 
+[debug] [2024-06-03T02:48:26.607Z] : ----------------------------------------------------------------------
+[debug] [2024-06-03T02:48:26.608Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst deploy --only appsail:frontend
+[debug] [2024-06-03T02:48:26.608Z] : CLI Version:  1.16.2
+[debug] [2024-06-03T02:48:26.608Z] : Platform:     darwin
+[debug] [2024-06-03T02:48:26.609Z] : Node Version: v18.18.2
+[debug] [2024-06-03T02:48:26.610Z] : Time:         Mon Jun 03 2024 12:18:26 GMT+0930 (Australian Central Standard Time)
+[debug] [2024-06-03T02:48:26.610Z] : ----------------------------------------------------------------------
+[debug] [2024-06-03T02:48:26.610Z] : 
+[debug] [2024-06-03T02:48:40.339Z] : > authorizing via signed-in user option
+[debug] [2024-06-03T02:48:40.340Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-06-03T02:48:40.367Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058 
 
-[debug] [2024-05-16T08:31:47.700Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Thu, 16 May 2024 08:31:48 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=5b295931-d6f1-4514-87e1-75ca9d65a7a1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5b295931-d6f1-4514-87e1-75ca9d65a7a1;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+[debug] [2024-06-03T02:48:41.840Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 02:48:41 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=4c50c434-e271-4542-8432-e92a6cc26c42;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4c50c434-e271-4542-8432-e92a6cc26c42;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
 
-[debug] [2024-05-16T08:31:47.703Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058/environment 
+[debug] [2024-06-03T02:48:41.843Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058/environment 
 
-[debug] [2024-05-16T08:31:48.333Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Thu, 16 May 2024 08:31:49 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=8d00292e-725e-4485-8add-bc5bb59a3d45;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=8d00292e-725e-4485-8add-bc5bb59a3d45;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+[debug] [2024-06-03T02:48:42.863Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 02:48:42 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=8b26c559-0d66-4669-a929-135a1e434614;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=8b26c559-0d66-4669-a929-135a1e434614;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
 
-[debug] [2024-05-16T08:31:48.544Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
-[debug] [2024-05-16T08:31:48.557Z] : http port : '3060' is not available. Hence port '3061' will be used instead.
-[debug] [2024-05-16T08:31:48.558Z] : No basic functions to add
-[info] [2024-05-16T08:31:48.710Z] : 
-[info] [2024-05-16T08:31:48.711Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
-[info] [2024-05-16T08:31:48.711Z] : i frontend: http://localhost:3001
-[info] [2024-05-16T08:31:48.712Z] : 
-[debug] [2024-05-17T01:04:01.986Z] : 
-[debug] [2024-05-17T01:04:01.987Z] : ----------------------------------------------------------------------
-[debug] [2024-05-17T01:04:01.987Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\10168\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy --only appsail:frontend
-[debug] [2024-05-17T01:04:01.987Z] : CLI Version:  1.17.3
-[debug] [2024-05-17T01:04:01.988Z] : Platform:     win32
-[debug] [2024-05-17T01:04:01.988Z] : Node Version: v18.17.0
-[debug] [2024-05-17T01:04:01.989Z] : Time:         Fri May 17 2024 10:34:01 GMT+0930 (澳大利亚中部标准时间)
-[debug] [2024-05-17T01:04:01.990Z] : ----------------------------------------------------------------------
-[debug] [2024-05-17T01:04:01.990Z] : 
-[debug] [2024-05-17T01:04:11.805Z] : > authorizing via signed-in user option
-[debug] [2024-05-17T01:04:11.805Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
-[debug] [2024-05-17T01:04:11.848Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058 
-
-[debug] [2024-05-17T01:04:12.812Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Fri, 17 May 2024 01:04:12 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=a2b84001-d4d7-4b17-ba56-77d8306a59e8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a2b84001-d4d7-4b17-ba56-77d8306a59e8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
-
-[debug] [2024-05-17T01:04:12.815Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058/environment 
-
-[debug] [2024-05-17T01:04:13.693Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Fri, 17 May 2024 01:04:13 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=9f85ec6b-4a56-4c7a-9d82-5f3f9a634181;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9f85ec6b-4a56-4c7a-9d82-5f3f9a634181;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
-
+[debug] [2024-06-03T02:53:08.598Z] : [Error: EMFILE: too many open files, open '/var/folders/16/l3r3zvrs0d1_50xn2gkngk3w0000gq/T/.catalyst/Archive.zip'] {
+  errno: -24,
+  code: 'EMFILE',
+  syscall: 'open',
+  path: '/var/folders/16/l3r3zvrs0d1_50xn2gkngk3w0000gq/T/.catalyst/Archive.zip'
+}
+[warn] [2024-06-03T02:53:08.599Z] : ⚠ Deploy of AppSail [frontend] was unsuccessful since EMFILE: too many open files, open '/var/folders/16/l3r3zvrs0d1_50xn2gkngk3w0000gq/T/.catalyst/Archive.zip'
+[info] [2024-06-03T02:53:08.599Z] : 
+[error] [2024-06-03T02:53:08.599Z] : ✖ appsail: deploy skipped
+[info] [2024-06-03T02:53:08.600Z] : 
+[error] [2024-06-03T02:53:08.600Z] : ✖ No components deployed!
+[debug] [2024-06-03T02:53:08.600Z] : NO ERRORS REGISTERED
+[debug] [2024-06-03T02:53:08.600Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-06-03T02:53:08.600Z] : TOTAL DURATION OF COMMAND EXEC : 268360
+[debug] [2024-06-03T02:53:08.601Z] : Unable to send debug log to server: EMFILE: too many open files, open '/Users/intern/Library/Preferences/zcatalyst-cli-nodejs/zcatalyst-cli.json'
