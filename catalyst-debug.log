@@ -110,3 +110,46 @@ Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 02:48:42 GMT","conten
 [debug] [2024-06-03T02:53:08.600Z] : EXEC ENDED with event: deploy, message: success
 [debug] [2024-06-03T02:53:08.600Z] : TOTAL DURATION OF COMMAND EXEC : 268360
 [debug] [2024-06-03T02:53:08.601Z] : Unable to send debug log to server: EMFILE: too many open files, open '/Users/intern/Library/Preferences/zcatalyst-cli-nodejs/zcatalyst-cli.json'
+[debug] [2024-06-03T05:52:32.057Z] : 
+[debug] [2024-06-03T05:52:32.059Z] : ----------------------------------------------------------------------
+[debug] [2024-06-03T05:52:32.059Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst deploy --only appsail:frontend --verbose
+[debug] [2024-06-03T05:52:32.060Z] : CLI Version:  1.16.2
+[debug] [2024-06-03T05:52:32.061Z] : Platform:     darwin
+[debug] [2024-06-03T05:52:32.062Z] : Node Version: v18.18.2
+[debug] [2024-06-03T05:52:32.062Z] : Time:         Mon Jun 03 2024 15:22:32 GMT+0930 (Australian Central Standard Time)
+[debug] [2024-06-03T05:52:32.063Z] : ----------------------------------------------------------------------
+[debug] [2024-06-03T05:52:32.063Z] : 
+[debug] [2024-06-03T05:52:45.166Z] : > authorizing via signed-in user option
+[debug] [2024-06-03T05:52:45.166Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-06-03T05:52:45.218Z] : > refreshing access token <
+[debug] [2024-06-03T05:52:45.220Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-06-03T05:52:46.200Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 05:52:46 GMT","content-type":"application/json;charset=UTF-8","content-length":"1945","connection":"close","set-cookie":["b266a5bf57=9f371135a524e2d1f51eb9f41fa26c60; Path=/","iamcsr=6bc3363d-98c2-47b1-acc2-1eaf132963d1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6bc3363d-98c2-47b1-acc2-1eaf132963d1;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-03T05:52:46.363Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058 
+
+[debug] [2024-06-03T05:52:47.381Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 05:52:47 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=929525f5-97d1-4f49-a486-9a1db8fc6ba6;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=929525f5-97d1-4f49-a486-9a1db8fc6ba6;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-03T05:52:47.382Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2620000000055058/environment 
+
+[debug] [2024-06-03T05:52:48.231Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 05:52:48 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=7bf2e2b6-6954-4e50-be44-6a3fc3d5ba5f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7bf2e2b6-6954-4e50-be44-6a3fc3d5ba5f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-03T05:59:03.981Z] : [Error: EMFILE: too many open files, open '/var/folders/16/l3r3zvrs0d1_50xn2gkngk3w0000gq/T/.catalyst/Archive.zip'] {
+  errno: -24,
+  code: 'EMFILE',
+  syscall: 'open',
+  path: '/var/folders/16/l3r3zvrs0d1_50xn2gkngk3w0000gq/T/.catalyst/Archive.zip'
+}
+[warn] [2024-06-03T05:59:03.981Z] : ⚠ Deploy of AppSail [frontend] was unsuccessful since EMFILE: too many open files, open '/var/folders/16/l3r3zvrs0d1_50xn2gkngk3w0000gq/T/.catalyst/Archive.zip'
+[info] [2024-06-03T05:59:03.982Z] : 
+[error] [2024-06-03T05:59:03.982Z] : ✖ appsail: deploy skipped
+[info] [2024-06-03T05:59:03.982Z] : 
+[error] [2024-06-03T05:59:03.983Z] : ✖ No components deployed!
+[debug] [2024-06-03T05:59:03.983Z] : NO ERRORS REGISTERED
+[debug] [2024-06-03T05:59:03.983Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-06-03T05:59:03.983Z] : TOTAL DURATION OF COMMAND EXEC : 379038
+[debug] [2024-06-03T05:59:03.984Z] : Unable to send debug log to server: EMFILE: too many open files, open '/Users/intern/Library/Preferences/zcatalyst-cli-nodejs/zcatalyst-cli.json'
